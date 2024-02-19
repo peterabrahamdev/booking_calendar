@@ -346,7 +346,7 @@ class _BookingCalendarMainState extends State<BookingCalendarMain> {
                       controller.toggleUploading();
                       controller.resetSelectedSlot();
                     },
-                    width: double.infinity/2,
+                    width: 300,
                     isDisabled: controller.selectedSlot == -1,
                     buttonActiveColor: widget.bookingButtonColor,
                   ),
