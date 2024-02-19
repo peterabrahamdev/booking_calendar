@@ -49,7 +49,7 @@ class CommonButton extends StatelessWidget {
     return InkWell(
       onTap: (isDisabled == null || isDisabled == false) ? onTap : null,
       child: Container(
-        width: width ?? double.infinity,
+        width: width ?? double.infinity/2,
         padding: const EdgeInsets.symmetric(vertical: 12),
         decoration: BoxDecoration(
           color: _getButtonColor(),
