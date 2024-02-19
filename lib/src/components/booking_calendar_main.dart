@@ -348,7 +348,7 @@ class _BookingCalendarMainState extends State<BookingCalendarMain> {
                     },
                     width: 300,
                     isDisabled: controller.selectedSlot == -1,
-                    buttonActiveColor: widget.bookingButtonColor,
+                    buttonActiveColor: Colors.red,
                   ),
                 ],
               ),
